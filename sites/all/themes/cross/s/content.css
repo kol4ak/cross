@@ -1,0 +1,425 @@
+/* Настройка шаблона страницы */
+#page-wrapper {margin: 0px; position: relative; min-height: 100%; width: 100%;
+    background-color: #ffffff;}
+#page { min-height: 100%;background: url('../i/back-head.png') repeat-x; }
+
+#content { width: 960px; float: left; }
+.one-sidebar #content { width: 710px; }
+.one-sidebar.sidebar-second #content { margin: 0 10px 0 0; }
+.two-sidebars #content { width: 500px; margin: 0 10px 0 0; }
+
+#sidebar-first { width: 200px; float: left; margin: 0 10px 0 0; }
+#sidebar-second { width: 240px; float: left; }
+/* /ёНастройка шаблона страницы */
+
+#main-wrapper {
+    margin-top: 30px;
+}
+
+/*---------------------------HEADLINES-----------------*/
+#block-views-headlines-block{
+    outline: 1px solid #A29782;
+}
+#block-views-headlines-block .title {
+    font: 18px Tahoma, Arial, sans-serif;
+    text-align:center;
+    color:#990000;
+
+}
+#block-views-headlines-block  .views-row  {
+    border-top:1px solid #A29782;
+    margin-top:0px;
+    width:180px;
+    margin-left:10px;
+
+}
+#block-views-headlines-block .views-field-field-image img{
+    margin-top:10px;
+}
+#block-views-headlines-block .views-field-title a{
+    font: 14px Tahoma, Arial, serif;
+    text-align:center;
+    color:#000000;
+    font-weight:500;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: none;
+    outline: 0px solid chocolate;
+
+}
+#block-views-headlines-block .views-field-body p{
+    font:13px Myriad Pro,Tahoma, Arial;
+    line-height: 14px;
+}
+/*-----------ВОЛОНТЕРСТВО---------------*/
+#block-views-volunteering-block {
+    margin-top:10px;
+    outline:1px solid #A29782;
+    height:283px;
+
+}
+#block-views-volunteering-block .title{
+    font: 18px Tahoma, Arial, sans-serif;
+    text-align:center;
+    color:#990000;
+}
+.view-volunteering  {
+    height:165px;
+    width:180px;
+    margin-left:15px;
+    border-top:1px solid #A29782;
+}
+.view-volunteering .views-row {
+    margin-top:3px;
+
+}
+/*----------------------ПОГОДА------------------*/
+#block-block-1{
+    height:230px;
+    margin-top:10px;
+    outline:1px solid #A29782;
+}
+#block-block-1 .title{
+    font: 18px Tahoma, Arial, sans-serif;
+    text-align:center;
+    color:#990000;
+}
+#block-block-1 .content{
+    border-top:1px solid #A29782;
+    width:180px;
+    margin-left:3px;
+}
+#gsInformerID-j68JA5361r815B{
+
+    margin-top:5px;
+}
+
+/*-----------------------Main Content----------------*/
+#block-views-main-thing-block{
+    outline:1px solid #A29782;
+}
+#block-views-main-thing-block .title{
+    font: 18px Tahoma, Arial, sans-serif;
+    text-align:center;
+    color:#990000;
+}
+
+#block-views-main-thing-block .views-row{
+    width:480px;
+    border-top:1px solid #A29782;
+    margin-top: 1px;
+    margin-left:10px;
+}
+#block-views-main-thing-block  .views-field-field-image img{
+    outline: 0px solid red;
+    height:65px;
+    width: 120px;
+    margin-top:10px;
+}
+#block-views-main-thing-block .views-field-title a{
+    display:block;
+    width: 340px;
+    margin:10px auto 5px;
+    outline:0px solid red;
+    float:right;
+    text-align:left;
+    position:relative;
+    z-index:1;
+    font: 14px Tahoma, Arial, serif;
+    font-weight:400;
+    color:#333333;
+    text-decoration: none;
+}
+#block-views-main-thing-block .item-list {
+    border-top:1px solid #A29782;
+    outline: 0px solid red;
+    width: 480px;
+    margin-left: 10px;
+}
+            /*-------------QUOTATIONS----------*/
+#block-views-quotations-block {
+    outline:1px solid #A29782;
+    margin-top:1px;
+
+}
+#block-views-quotations-block .title{
+    font: 18px Tahoma, Arial, sans-serif;
+    text-align:center;
+    color:#990000;
+}
+#block-views-quotations-block .views-row {
+    width:480px;
+    border-top:1px solid #A29782;
+    margin-top:5px;
+    margin-left:10px;
+}
+.node-quotations a{
+    width: 420px;
+    position: relative;
+    z-index:1;
+    font: 14px Tahoma, Arial, serif;
+    font-weight:bold;
+    text-align:left;
+    color:#333333;
+    text-decoration: none;
+    float:right;
+    outline: 0px solid darkgreen;
+
+}
+.node-quotations .field-name-field-image img{
+    width: 50px;
+    height: 50px;
+    outline: 0px solid red;
+    float: left;
+    padding-top:7px;
+    padding-right: 10px;
+    padding-bottom:6px;
+
+}
+.node-quotations .field-name-body p{
+    display:block;
+    position: relative;
+    float:8px ;
+    line-height: 100%;
+    width: 480px;
+    outline: 0px solid red;
+}
+/*----------------------------Second sidebar---------------------------*/
+#main-wrapper #sidebar-second {
+    float: right;
+    outline:0px solid red;
+}
+  /*---------------VIDEO-------------------*/
+#block-views-video-block{
+    outline:1px solid #A29782 ;
+    position: relative;
+    display: block;
+
+}
+#block-views-video-block .title{
+    font: 18px Tahoma, Arial, sans-serif;
+    text-align:center;
+    color:#990000;
+
+}
+#block-views-video-block .view-content{
+    width:220px;
+    border-top:0px solid #A29782;
+    margin-left:10px;
+    outline:0px solid red;
+}
+
+
+                   /*------Other video-----*/
+.view-id-video .views-row{
+    outline:0px solid darkturquoise;
+    border-top:1px solid #A29782 ;
+    padding-top: 5px;
+}
+.view-id-video .views-row img {
+    width:80px;
+    height:60px;
+    float: left;
+}
+.view-id-video .views-row a {
+
+    padding-top: 10px;
+    font: 12px Tahoma, Arial, serif;
+    text-align:center;
+    color:#000000;
+    line-height: 80%;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: none;
+    font-weight:500;
+    outline: 0px solid darkgreen;
+}
+#block-views-video-block .views-field-body  p{
+    display: block;
+    width:;
+    height:;
+    overflow:;
+    outline: 0px solid blue;
+}
+
+/*----video first*/
+.view-video  .views-row-first{
+    outline:0px solid blue;
+    margin-top: 0px;
+}
+#block-views-video-block  .views-row-first  img{
+    width: 220px;
+    height: 160px;
+
+}#block-views-video-block .views-row-first  .views-field-title{
+     width: 220px;
+ }
+#block-views-video-block  .views-row-first   a {
+    font: 14px Tahoma, Arial, serif;
+    text-align:center;
+    color:#000000;
+    font-weight:500;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: none;
+    outline: 0px solid chocolate;
+}
+#block-views-video-block  .views-row-first  p{
+    font: 13px Myriad Pro, Tahoma, Arial, serif;
+    text-align:left;
+    color:#333333;
+    text-transform:;
+    text-decoration: none;
+    float: none;
+    outline: px solid red;
+    width:px;
+    height:;
+}
+    /*---------------TIME_HERO----------*/
+#block-views-hero-time-block{
+    outline: 1px solid #A29782;
+    margin-top: 10px;
+}
+#block-views-hero-time-block .title{
+    font: 18px Tahoma, Arial, sans-serif;
+    text-align:center;
+    color:#990000;
+}
+.view-hero-time .views-field-field-image{
+    width:220px;
+    margin-left:10px;
+    margin-top:5px;
+    border-top:1px solid #A29782;
+    padding-top:5px;
+}
+.view-hero-time .views-field-title a{
+    font: 14px Tahoma, Arial, serif;
+    text-align:left;
+    color:#333333;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: none;
+    width:220px;
+    margin-left:10px;
+    display: block;
+    outline: 0px solid chocolate;
+}
+.view-hero-time .views-field-body p{
+    font: 13px Myriad Pro, Tahoma, Arial, serif;
+    text-align:left;
+    color:#333333;
+    text-transform:;
+    text-decoration: none;
+    float: none;
+    display: block;
+    width:220px;
+    margin-left:10px;
+    outline:0px solid red;
+}
+/*------------------------------FOTOS-------------*/
+#block-views-foto-block {
+    outline:1px solid #A29782;
+    margin-top:10px;
+}
+#block-views-foto-block .title{
+    font: 18px Tahoma, Arial, sans-serif;
+    text-align:center;
+    color:#990000;
+}
+#sidebar-second #block-views-foto-block .view-content{
+    width:220px;
+    border-top:0px solid #A29782;
+    margin-top: 6px;
+    margin-left:10px;
+    padding-top:0px;
+    outline:0px solid red;
+}
+#block-views-foto-block .view-id-foto .views-row{
+    outline:0px solid darkturquoise;
+    border-top:1px solid #A29782;
+}
+
+#block-views-foto-block .view-id-foto .views-row .views-field-field-image {
+    width:80px;
+    height:60px;
+    padding-right:5px;
+    float: left;
+    overflow: hidden;
+    outline: 0px solid green;
+}
+#block-views-foto-block .view-id-foto .views-row .views-field-field-image img{
+    width:80px;
+    height:60px;
+
+
+}
+.view-id-foto .views-row a {
+    height:60px;
+    display: block;
+    padding-top: 5px;
+    font: 12px Tahoma, Arial, serif;
+    text-align:left;
+    color:#333333;
+    text-transform:;
+    text-decoration: none;
+    float: none;
+    outline: 0px solid darkgreen;
+}
+.view-id-foto .views-row .views-field-body  p{
+    display:;
+    position: absolute;
+    width:0px;
+    height:0px;
+    overflow:hidden;
+    margin-left: -9999px;
+    outline: 1px solid blue;
+}
+
+            /*--------HUMOR---------*/
+#block-views-humor-block {
+    outline:1px solid #A29782;
+    margin-top:5px;
+}
+#block-views-humor-block .title{
+    font: 18px Tahoma, Arial, sans-serif;
+    text-align:center;
+    color:#990000;
+}
+#block-views-humor-block .view-content {
+     width: 220px;
+     border-top: 1px solid #A29782;
+     margin-top: 4px;
+     margin-left: 10px;
+     padding-top: 5px;
+     outline: px solid red;
+ }
+.view-humor .views-field-body p {
+    display: block;
+    width:;
+    height:;
+    overflow:;
+    font: 13px Tahoma, Arial, serif;
+    line-height: 15px;
+    outline: 0px solid blue;
+}
+/*--------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+            /*--------------------NEWS--------------*/
+
+.node-news h2{
+    color:#111;
+    margin:0 0 5px;
+    font-weight:normal;
+    font-family:Georgia, "Times New Roman", Times, serif;
+}
+a {
+    color:#111;
+    text-decoration: none;
+}
+
+.submitted {
+    color:#888;
+    line-height:1;
+    padding:5px 0 15px 0;
+    font-size:0.912em;
+}
