@@ -16,6 +16,21 @@
     margin-top: 30px;
 }
 
+
+/*---------------------------ADD NEWS------------------*/
+
+.add-news {
+    margin-bottom: 5px;
+.add-news{
+    display:block;
+    float:left;
+    opacity:4;
+    padding-right: 7px;
+}
+.add-news:hover{
+    opacity:6;}
+
+}
 /*---------------------------HEADLINES-----------------*/
 #block-views-headlines-block{
     outline: 1px solid #A29782;
@@ -404,8 +419,13 @@
 }
 /*--------------------------------------------------------------------*/
 /*-------------------------------------------------------------------*/
-            /*--------------------NEWS--------------*/
 
+.node-news{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding:10px;
+
+}
 .node-news h2{
     color:#111;
     margin:0 0 5px;
@@ -422,4 +442,187 @@ a {
     line-height:1;
     padding:5px 0 15px 0;
     font-size:0.912em;
+}
+.node-teaser .field-name-field-image {
+    float:right;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+.node-teaser .field-name-field-image img{
+    background:#fff;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+.node-teaser p{
+    margin-bottom:1em;
+}
+
+/*---------------*/
+.node-news ul.links {
+    border-top:1px dotted #ddd;
+    margin-top:10px;
+    padding-top: 10px;
+    color: #888;
+    font-size: 0.912em;
+    display: block;
+
+}
+.node-news ul.links li{
+    border-right: 1px solid #ddd;
+    margin:0 5px 0 0;
+    padding: 0 10px 0 0;
+}
+.node-news ul.links li a {
+    color: #9a2016;
+    display: inline-block;
+}
+.node-news ul.links li.last{
+    border-right: none;
+}
+ /*-----------------------------/News/Node-----------------------------------*/
+ #page-title{
+    display: block;
+    margin-left:10px;
+    outline: 0px solid red;
+}
+.field-name-field-image img{
+    height:px;
+    width: px;
+    float:left;
+}
+.field-name-field-prebody p
+{
+    display: block;
+    height: 280px;
+    width: 190px;
+    float:left;
+    outline: 0px solid red;
+    padding-left: 10px;
+    font: 13px Myriad Pro, Tahoma, Arial, serif;
+    font-weight:bold;
+
+}
+#content {
+    outline: 1px solid #A29782;
+}
+
+/*-------------------------------------------Related News-----------------*/
+#block-views-similarterms-block {
+    outline: 0px solid red;
+    margin-left:10px;
+    margin-top:10px;
+    height:200px;
+    width: 690px;
+    padding-bottom:15px;
+    border-bottom:1px solid #A29782;
+}
+#block-views-similarterms-block .title{
+    font:18px Myriad Pro, Tahoma, Arial, serif ;
+    color:#990000;
+    text-transform: uppercase;
+
+}
+#block-views-similarterms-block .views-row{
+    float: left;
+    width:120px;
+    outline: 0px solid blue;
+    padding-left: 22px;
+    margin-top: 10px;
+}
+#block-views-similarterms-block .views-row-first{
+     float: left;
+     width:120px;
+     outline: 0px solid blue;
+     padding-left: 0px;
+     margin-top: 10px;
+ }
+
+#block-views-similarterms-block a{
+    font:12px "Myriad Pro",serif;
+    text-transform:;
+    color:#494949;
+    line-height:60%;
+
+}
+/*----------------------------------------Comment-----------------------*/
+#edit-comment-body-und-0-format{
+    display: none;
+}
+
+/* ----------------- Comments ----------------- */
+
+#comments h2.title {
+    margin-bottom: 1em;
+}
+#comment div.user-picture img {
+    margin-left: 0; /* LTR */
+}
+#comment {
+    margin-bottom: 20px;
+    display: table;
+    vertical-align: top;
+}
+#comment .attribution {
+    display: table-cell;
+    padding: 0 30px 0 0; /* LTR */
+    vertical-align: top;
+    overflow: hidden;
+}
+#comment .attribution img {
+    margin: 0;
+    border: 1px solid #d3d7d9;
+}
+#comment .attribution .username {
+    white-space: nowrap;
+}
+#comment .submitted p {
+    margin: 4px 0;
+    font-size: 1.071em;
+    line-height: 1.2;
+}
+#comment .submitted .comment-time {
+    font-size: 0.786em;
+    color: #68696b;
+}
+#comment .submitted .comment-permalink {
+    font-size: 0.786em;
+}
+#comment .content {
+    font-size: 0.929em;
+    line-height: 1.6;
+}
+#comment .comment-arrow {
+    background: url(../i/comment-arrow.gif) no-repeat 0 center transparent; /* LTR */
+    border-left: 1px solid;
+    border-right: 1px solid;
+    height: 40px;
+    margin-left: -47px; /* LTR */
+    margin-top: 10px;
+    position: absolute;
+    width: 20px;
+}
+#comment .comment-text {
+    padding: 10px 25px;
+    border: 1px solid #d3d7d9;
+    display: table-cell;
+    vertical-align: top;
+    position: relative;
+    width: 100%;
+}
+#comment .indented {
+    margin-left: 40px; /* LTR */
+}
+#comment ul.links {
+    padding: 0 0 0.25em 0;
+}
+#comment ul.links li {
+    padding: 0 0.5em 0 0; /* LTR */
+}
+#comment-unpublished {
+    margin-right: 5px; /* LTR */
+    padding: 5px 2px 5px 5px; /* LTR */
+}
+#comment-unpublished .comment-text .comment-arrow {
+    border-left: 1px solid #fff4f4;
+    border-right: 1px solid #fff4f4;
 }

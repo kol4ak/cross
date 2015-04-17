@@ -31,10 +31,7 @@
     display: block;
     font: 11px  Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    padding-top: 0px ;
-    padding-right: 15px ;
-    padding-left: 15px ;
-    padding-bottom: 0px ;
+    padding: 0px 15px 0px 15px ;
     margin-top: 5px;
     border-right: 1px solid #ffffff
 }
@@ -45,21 +42,82 @@
 
 
 #header #block-user-login {
-    position: relative;
+    position: absolute;
     outline: 0px dotted red;
-    float: left;
-    left: 820px;
-    bottom: 40px;
+    left: 850px;
+    bottom: 43px;
     width:140px;
     height:10px;
     margin: 0px;
+
+}
+
+#block-user-login a{
     font:10px  Tahoma, Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     color:white;
 }
+
 #block-user-login a.active{ color:#000000 }
 #block-user-login a:hover{ color:#000000 }
 #block-user-login a:visited{ color:#000000 }
+
+
+/*-----------------------------SORCH-------------------*/
+
+#header .container-inline {
+    position: absolute;
+    outline: px solid red;
+    width: 200px;
+    top:50px;
+    left:765px;
+
+}
+/*----------------------------DATA-------------------*/
+#block-block-8 {
+    width: 200px;
+
+}
+/*--------------------------SOC----------------------*/
+
+#block-block-5 {
+    width: 140px;
+    top:65px;
+    position: absolute;
+    outline: 0px solid red;
+
+}
+
+.soc-icon{
+    display:block;
+    float:left;
+    opacity:0.8;
+    padding-right: 7px;
+}
+.soc-icon:hover{
+    opacity:1;}
+
+/*************************************************secondary-menu-------*/
+
+#secondary-menu {
+    position: absolute;
+    outline: 0px solid red;
+    width: 180px;
+    left: 840px;
+    bottom:82px;
+
+
+}
+#secondary-menu a {
+    font:10px  Tahoma, Arial, Helvetica, sans-serif;
+    color:white;
+    text-transform: uppercase;
+
+}
+#secondary-menu a.active{ color:#000000 }
+#secondary-menu a:hover{ color:#000000 }
+#secondary-menu a:visited{ color:#000000 }
+
 /*----------------Top-Content-----------------*/
 #top-content {
     position:relative;
